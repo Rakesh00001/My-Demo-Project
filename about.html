@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Responsive_Navber</title>
+</head>
+
+<body>
+    <section class="header2">
+        <div class="nav">
+            <a href="" class="logo">navbar</a>
+            <div class="nav-menu" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="course.html">courses</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <h1 class="us">about us</h1>
+    </section>
+    <!---end of section 1-->
+    <section class="about-section">
+        <div class="row">
+            <div class="col-about">
+                <h2>We are the world's largest <br> university</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi, maxime laudantium
+                    veritatis dolore necessitatibus maiores modi quos eius adipisci voluptate magnam illo fuga
+                    consequuntur ratione asperiores sapiente voluptatibus voluptates reprehenderit omnis libero autem
+                    quaerat ex! Dolorem totam cum aut debitis at ex non ullam modi aspernatur laudantium rerum dolor
+                    provident excepturi, unde veniam quaerat adipisci nihil eos eveniet nam. Obcaecati eum libero quo
+                    incidunt in ab natus veritatis porro quis ratione necessitatibus hic illo sit architecto id,
+                    inventore reprehenderit! Delectus laboriosam quo beatae! Tempora cupiditate aliquid iure illum
+                    reiciendis, repellendus laborum vero debitis? Repellendus facilis repudiandae fuga architecto odio
+                    itaque ipsum ad quos cumque temporibus magni dolores, alias aliquam hic dolorem, libero nam rerum et
+                    voluptates. Error minima eum ipsam, libero mollitia voluptatum voluptatem dignissimos, odit possimus
+                    exercitationem aliquam necessitatibus aliquid saepe laudantium dolor facilis suscipit doloremque ad
+                    at vitae odio cumque, architecto autem. Temporibus consequuntur quaerat eius ipsa explicabo dolorem
+                    blanditiis sunt ratione repellendus, corrupti voluptatem, animi maxime quibusdam reiciendis in at
+                    perspiciatis praesentium quo inventore, suscipit fugit id adipisci consectetur velit. Accusamus
+                    neque repudiandae corporis provident modi nulla et voluptatibus, nemo, quis vel debitis aliquam
+                    nesciunt non odio tenetur consequuntur tempora quo doloribus vitae sit, omnis reiciendis.</p>
+                    <a href="" class="btn btn-2">Explore Now</a>
+            </div>
+            <div class="col-about">
+                <img src="images/student_photo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!---anather section-->
+    <section class="footer">
+        <div class="tx">
+            <h4>about us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit neque adipisci? Officia
+                deserunt
+                perferendis quas suscipit dolores, quos aut ullam omnis libero. Neque tempora, minus eaque eveniet vero
+                iure? Illo ipsa, dignissimos voluptatum, reprehenderit deleniti quisquam hic facilis distinctio
+                doloremque
+                nam sequi natus dolore, officia nihil numquam eum consectetur. Corporis doloribus nesciunt odit in
+                maiores
+                optio nemo quae natus.</p>
+        </div>
+        <div class="ic">
+            <a href="https://www.facebook.com/profile.php?id=100020173652483"><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <!-- <p style="color: rgb(19, 207, 113);">Made with <i class="far fa-heart"></i> by Rakseh kumar mandal<br>Copy-write Free</p> -->
+    </section>
+    <script>
+        var abc = document.getElementById('navLink');
+        showMenu = () => {
+            abc.style.right = '0';
+            abc.style.transition = '1s'
+        }
+        hideMenu = () => {
+            abc.style.right = '-200px';
+            abc.style.transition = '1s'
+        }
+    </script>
+</body>
+
+</html>

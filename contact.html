@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Responsive_Navber</title>
+</head>
+
+<body>
+    <section class="header2">
+        <div class="nav">
+            <a href="" class="logo">navbar</a>
+            <div class="nav-menu" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="course.html">courses</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <h1 class="us">contact us</h1>
+    </section>
+    <!---end of section 1-->
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29540.484594210735!2d88.99681297955621!3d22.256745430482738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a01eca198af6d57%3A0x24451a608dc17902!2sMalekanghumti%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1626502483253!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contuct-us">
+        <div class="row">
+        <div class="contuct-col">
+            <i class="fa fa-home"></i>
+            <div>
+                <span>
+                    <h5>koltka road abc buildling</h5>
+                </span>
+                <p>pin-25364 sham street</p>
+            </div>
+
+            <i class="fa fa-phone-alt"></i>
+            <div>
+                <span>
+                    <h5>+00125483888</h5>
+                </span>
+                <p>11 am-6pm(call time)</p>
+            </div>
+
+            <i class="fa fa-envelope"></i>
+            <div>
+                <span>
+                    <h5>university.world@gmail.com</h5>
+                </span>
+                <p>contact with email id</p>
+            </div>
+        </div>
+        <div class="contuct-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email id" required>
+                <input type="text" placeholder="Enter your subject"required>
+                <textarea name="" rows="10" required placeholder="masseges"></textarea>
+                <input type="submit" value="Send massege">
+            </form>
+        </div>
+    </div>
+    </section>
+    <!---anather section-->
+    <section class="footer">
+        <div class="tx">
+            <h4>about us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit neque adipisci? Officia
+                deserunt
+                perferendis quas suscipit dolores, quos aut ullam omnis libero. Neque tempora, minus eaque eveniet vero
+                iure? Illo ipsa, dignissimos voluptatum, reprehenderit deleniti quisquam hic facilis distinctio
+                doloremque
+                nam sequi natus dolore, officia nihil numquam eum consectetur. Corporis doloribus nesciunt odit in
+                maiores
+                optio nemo quae natus.</p>
+        </div>
+        <div class="ic">
+            <a href="https://www.facebook.com/profile.php?id=100020173652483"><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <!-- <p style="color: rgb(19, 207, 113);">Made with <i class="far fa-heart"></i> by Rakseh kumar mandal<br>Copy-write Free</p> -->
+    </section>
+    <script>
+        var abc = document.getElementById('navLink');
+        showMenu = () => {
+            abc.style.right = '0';
+            abc.style.transition = '1s'
+        }
+        hideMenu = () => {
+            abc.style.right = '-200px';
+            abc.style.transition = '1s'
+        }
+    </script>
+</body>
+
+</html>
